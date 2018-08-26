@@ -21,7 +21,7 @@ npm install
 * [File-System](https://www.npmjs.com/package/file-system) - for reading and writing files
 * [Moment](https://www.npmjs.com/package/moment) - used for formatting date of concerts
 * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api) - used to search and find a song's artist, album, and preview link 
-* [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api) - used to search and find a musical artist's upcoming concert information, with name of venue, location, and date. 
+* [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api) - used to search and find a musical artist's upcoming concert information, with name of venue, location, and date 
 * [OMDB API](https://www.npmjs.com/package/omdb) - used to search a movie name and return results with information on the movie's release year, critic ratings, actors, and more
 
 
