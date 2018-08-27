@@ -1,0 +1,12 @@
+**LIRI OUTPUT**
+
+MOVIE SEARCH RESULTS
+Title: Mean Girls,
+Year Released: 2004,
+Leading Actors: Lindsay Lohan, Rachel McAdams, Tina Fey, Tim Meadows,
+Plot: Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.,
+IMDB Rating: 7.0/10,
+Rotten Tomatoes Rating: 83%,
+Country of Production: USA, Canada,
+Language(s) of Movie: English, German, Vietnamese, Swahili
+----------------********************----------------
