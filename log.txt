@@ -1,5 +1,5 @@
-**LIRI OUTPUT**
-
+LIRI OUTPUT
+----------------********************----------------
 MOVIE SEARCH RESULTS
 Title: Mean Girls,
 Year Released: 2004,

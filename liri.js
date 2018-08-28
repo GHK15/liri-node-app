@@ -143,6 +143,7 @@ function concertThis(band){
 
   if(band){
     request("https://rest.bandsintown.com/artists/" + band + "/events?app_id=codingbootcamp", function(error, response, body) {
+        console.log(body);
         if (!error && response.statusCode === 200) {
             var bandArray = JSON.parse(body)
             bandArray.forEach(function(event){
@@ -154,7 +155,6 @@ function concertThis(band){
                 fs.appendFile("log.txt", bandLog, function(err, data) {
                     if (err) {
                       return console.log(err);
-                      console.log("Error updating log.txt! Please try again.")
                     }
 
                     console.log("log.txt was updated!");
@@ -183,7 +183,6 @@ function doWhatItSays(){
             fs.appendFile("log.txt", spotOutput, function(err, data) {
                 if (err) {
                     return console.log(err);
-                    console.log("Error updating log.txt! Please try again.")
                   }
                   
                   console.log("log.txt was updated!");
@@ -194,18 +193,17 @@ function doWhatItSays(){
             fs.appendFile("log.txt", movOutput, function(err, data) {
                 if (err) {
                     return console.log(err);
-                    console.log("Error updating log.txt! Please try again.")
                   }
                   
                   console.log("log.txt was updated!");
 
                 });
         } else if(readCommand === 'concert-this'){
+            console.log(readThing)
             var concertOutput = concertThis(readThing);
             fs.appendFile("log.txt", concertOutput, function(err, data) {
                 if (err) {
                     return console.log(err);
-                    console.log("Error updating log.txt! Please try again.")
                   }
                   
                   console.log("log.txt was updated!");

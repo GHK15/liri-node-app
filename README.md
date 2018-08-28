@@ -8,11 +8,21 @@ These instructions are designed for you to get a copy of the project up and runn
 
 ### Prerequisites
 
+To download / clone the repository: https://github.com/GHK15/liri-node-app
+
+For SSH command:
+
+```
+git clone git@github.com:GHK15/liri-node-app.git
+```
+
 Once you have cloned the repository to your local environment, please install all package dependencies for LIRI in the repo with the below command. This command will install all modules listed as dependencies in package.json:
 
 ```
 npm install
 ```
+
+
 
 ## Built With
 
