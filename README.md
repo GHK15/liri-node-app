@@ -8,7 +8,9 @@ These instructions are designed for you to get a copy of the project up and runn
 
 ### Prerequisites
 
-To download / clone the repository: https://github.com/GHK15/liri-node-app
+To download / clone the repository: [LIRI GitHub Repo](https://github.com/GHK15/liri-node-app)
+
+ 
 
 For SSH command:
 
